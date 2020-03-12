@@ -1,0 +1,160 @@
+
+<html>
+    <head>
+        <title>Employee Register</title>
+        <style>
+             .header
+            {
+                background-color: darkcyan;
+                color: white;
+                font-family: sans-serif;
+                font-style: initial;
+                font-size: 40px;
+            }
+            .header2
+            {
+                width: 60%;
+                height: 600px;
+                margin: 0px auto;
+            }
+            .lbl
+            {
+                width: 200px;
+                height: 25px;
+                font-family: inherit;
+                font-size: 18px;
+            }
+          #button
+          {
+              width: 75px;
+              height: 25;
+              margin-left: 10px;
+          }
+          #button1
+          {
+              width: 75px;
+              height: 25;
+              margin-left: 10px;
+          }
+        </style>
+    </head>
+    
+    <body style="background-color: azure">
+    <form action="SignUpForm.jsp" method="post" target="frame1">
+    <div class="header"><center>Employee Registration</center></div>
+    
+    <div class="header2">
+    <table border:"1px" cellspacing="5px" cellpadding="5px">
+        <tr>
+        <td style="width:20%;font-size: 22px; color: black; font-family: inherit;">Personal Details:</td>
+        </tr>
+        <tr>
+        <td class="lbl">First Name<span style="color: red">*</span></td>
+        <td><input class="lbl" type="text" autocomplete="off" placeholder="First name" name="fname" required></td>
+        </tr>
+        <tr>
+        <td class="lbl">Last Name<span style="color: red">*</span></td>
+        <td><input class="lbl" type="text" placeholder="last name" name="lname" required></td>
+        </tr>
+        <tr>
+        <td class="lbl">Date Of Birth<span style="color: red">*</span></td>
+        <td><input type="date" placeholder="DD-MM-YYYY" name="dob" required></td>
+        </tr>
+        <tr>
+        <td class="lbl">Gender<span style="color: red">*</span></td>
+        <td><input type="radio" name="rd">Male
+        <input type="radio" name="rd">Female
+        </td>
+        </tr>
+        <tr>
+        <td class="lbl">Email-ID<span style="color: red">*</span></td>
+        <td><input class="lbl" type="email" placeholder="Email-id" name="email" required></td>
+        </tr>
+        <tr>
+        <td class="lbl">Create Password<span style="color: red">*</span></td>
+        <td><input class="lbl" type="password" pattern="[A-Za-z0-9]{8}" placeholder="Create password" name="pswd" required></td>
+        </tr>
+        <tr><td class="lbl">Confirm Password<span style="color: red">*</span></td>
+        <td><input class="lbl" type="password" pattern="[A-Za-z0-9]{8}" title="Eight Letter" placeholder="Confirm password" name="c_pswd" required></td>
+        </tr>
+        <tr><td class="lbl">Phone Number<span style="color: red">*</span></td>
+        <td><input class="lbl" type="number" placeholder="Phone no" name="phno" required></td>
+        </tr>
+        <tr><td class="lbl">Address<span style="color: red">*</span></td>
+        <td><input class="lbl" type="text" placeholder="Full Address" name="address" required></td>
+        </tr>
+        <tr>
+         <td class="lbl">Current City:</td>
+         <td><select class="lbl">
+         <option value="opt1">Select Your City</option>
+         <option value="opt2">Bangalore</option>
+         <option value="opt3">Chennai</option>
+         <option value="opt4">Coimbatore</option>
+         <option value="opt5">Delhi</option>
+         <option value="opt6">Kolkata</option>
+         <option value="opt7">Mumbai</option>
+         <option value="opt8">Pune</option>
+         </select></td>
+        </tr>      
+        <tr>
+        <td style="font-size: 22px; color: black; font-family: inherit" colspan="4">Educational Qualification:</td>
+        </tr>
+        <tr>
+        <td class="lbl">Class 10th Marks<span style="color: red">*</span></td>
+        <td><input class="lbl" type="number" name="marks10" placeholder="Percentage" required></td>
+        </tr>
+        <tr>
+        <td class="lbl">Class 12th Marks<span style="color: red">*</span></td>
+        <td><input class="lbl" type="number" name="marks12" placeholder="Percentage" required></td>
+        </tr>
+        <tr>
+        <td class="lbl">Degree<span style="color: red">*</span></td>    
+        <td><select class="lbl">
+           <option value="opt1">Select Your Degree</option>
+           <option value="opt2">BE/BTech</option>
+           <option value="opt3">BSc</option>
+           <option value="opt4">Diploma</option>
+           <option value="opt5">MBA/PGDM</option>
+           <option value="opt5">MCA</option>
+           <option value="opt6">ME/MTech</option>
+           <option value="opt7">MSc</option>
+           <option value="opt8">other</option>
+        </select></td>
+        </tr>
+        <tr>
+        <td class="lbl">Branch<span style="color: red">*</span></td>
+        <td><input class="lbl" type="text" name="branch" placeholder="Branch" required></td>
+        </tr>
+        <tr>
+        <td class="lbl">College Details<span style="color: red">*</span></td>
+        <td><input class="lbl"type="text" name="college name" placeholder="Institution Name" required></td>
+        </tr>
+        <tr>
+        <td style="font-size: 22px; color: black; font-family: inherit" colspan="4">Work Experience:</td>
+        </tr>
+        <tr>
+        <td></td>
+        <td><input type="radio" name="rd">Fresher
+        <input type="radio" name="rd">Experienced
+        </td>
+        </tr>
+        <tr>
+        <td class="lbl">Years of Experience<span style="color: red">*</span></td>
+        <td><input class="lbl" type="number" placeholder="0-10" name="exp">
+        </td>
+        </tr>
+        <tr>
+        <td class="lbl">Skills<span style="color: red">*</span></td>
+        <td><input class="lbl" type="text" name="skills" placeholder="Enter your skills" required></td>
+        </tr>
+        <tr style="height:10px">
+        <td width="80%" colspan="4">
+        </td>
+        <tr><td></td>
+        <td><input id="button" type="submit" value="Register" name="register">
+        <input id="button1" type="reset" value="Cancel"></td></tr>
+      </table>
+     </div>
+  </form>
+ </body>
+</html>

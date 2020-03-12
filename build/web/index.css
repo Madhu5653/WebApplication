@@ -1,0 +1,91 @@
+.top1
+{
+    width: 100%;
+    height: 70px;
+    text-align: left;
+    margin:0px auto;
+    font-size: 30px;
+    background-color: black;
+}
+.lframe
+{
+	width:15%;
+	height:550px;
+	margin-top:10px;
+	float: left;
+	text-align: center;
+        margin-left:5px;
+   
+}
+.lframe a
+{
+	text-decoration: none;
+	font-size:25px;
+	color: black;
+	font-family: cursive;
+}
+.lframe a:hover
+{
+	color: #ff3300;
+	font-size:28px;
+}
+.frame1
+{
+    width:80%;
+    height:600px;
+    margin-top: 5px;
+    float: right;
+    background-color: white;
+}
+.container1
+{
+	width:30%;
+        height: 500px;
+        float: left;
+        margin-top: 10px; 
+        margin-left: 20px;
+        background-color: #ff3300;
+       
+}
+.container1 span
+{
+	font-size: 30px;
+	color: midnightblue;
+	font-family: cursive;
+}
+
+.container2
+{
+    width:30%;
+    height:500px;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-left: 30px;
+    float: left;
+    background-color: #ffaa00;
+    
+}
+.container2 span
+{   
+    font-size:30px;
+    color: midnightblue;
+    font-family: cursive;
+}
+
+.container3
+{
+    width:30%;
+    height:500px;
+    margin:0px auto;
+    margin-top: 10px;
+    margin-left: 30px;
+    float: left;
+    background-color: #33cc33;
+    
+}
+.container3 span
+{   
+    font-size:30px;
+    color: midnightblue;
+    font-family: cursive;
+}

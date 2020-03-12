@@ -1,0 +1,58 @@
+
+<html>
+    <head>
+        <title>Employee Login</title>
+        <style>
+            .header
+            {
+                background-color: darkcyan;
+                color: white;
+                font-family: sans-serif;
+                font-style: initial;
+                font-size: 45px;
+            }
+            .lbl
+            {
+                width: 250px;
+                height: 50px;
+                font-family: inherit;
+                font-size: 20px;
+            }
+            .header2
+            {
+                width: 30%;
+                height: 300px;
+                margin:0px auto;
+                margin-top:70px;
+                
+            }
+            .lbl1
+            {
+                margin-left: 15px;
+            }
+        </style>
+    </head>
+    
+    <body style="background-color: azure">
+    <form action="Login.jsp" method="post" target="frame1">
+     
+    <div class="header"><center>Employee Login</center></div>
+     
+    <div class="header2">
+     <table border:"1px" cellspacing="5px" cellpadding="5px">
+      <tr><td class="lbl">Email ID</td>
+          <td><input class="lbl" type="text" placeholder="email-id" name="email" required></td></tr>
+      <tr>
+          <td class="lbl">Password</td>
+          <td><input class="lbl" type="password" placeholder="password" name="pswd" required></td></tr>
+      <tr style="height: 20px"></tr>
+      <tr><td></td>
+          <td><button class="lbl1" type="submit" style="width: 100px;height: 40px;font-family: inherit;font-size: 20px;">Login</button></td>
+      </tr>
+     </table>        
+    </div>
+     
+    </form>
+   
+   </body>
+</html>

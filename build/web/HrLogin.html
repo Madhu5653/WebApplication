@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Search Employee</title>
+           <style>
+            .header
+            {
+                background-color: darkcyan;
+                color: white;
+                font-family: sans-serif;
+                font-style: initial;
+                font-size: 45px;
+            }
+            .lbl
+            {
+                width: 250px;
+                height: 50px;
+                font-family: inherit;
+                font-size: 20px;
+                border-radius: 2px;
+            }
+            .header2
+            {
+                width: 30%;
+                height: 300px;
+                margin:0px auto;
+                margin-top:80px;
+            }
+            .lbl1
+            {
+                margin-left: 15px;
+            }
+        </style>
+    </head>
+    
+  
+    <body style="background-color: azure">
+     <form action="HrLogin.jsp" method="post">
+     
+     <div class="header"><center>HR Login</center></div>
+     
+     <div class="header2">
+     <center>
+     <table border:"1px" cellspacing="5px" cellpadding="5px">
+      <tr><td class="lbl">HR-ID</td>
+          <td><input class="lbl" type="text" placeholder="HR-ID" name="hr-id" required></td></tr>
+      <tr><td class="lbl">Password</td>
+          <td><input class="lbl" type="password" placeholder="Password" name="pswd" required></td></tr>
+      <tr style="height: 20px"></tr>
+      <tr><td></td>
+          <td><input class="lbl1" type="submit" value="Login" style="width: 100px;height: 40px;font-family: inherit;font-size: 20px;"></td>
+      </tr>
+     </table>    
+     </center>
+     </div>
+    
+     </form>
+   </body>
+</html>
